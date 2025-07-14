@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>South Indian Recipes</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Most Popular South Indian Food Recipes</h1>
+        </header>
+        <main>
+            <div class="cards-container" id="cardsContainer">
+                <div class="food idly">
+                  <img class="foodimg" src="idly.jpg">
+                  <h3>Idly</h3>
+                  <hr>
+                  <p>Idly is a soft, steamed South Indian breakfast dish made from a fermented batter of rice and urad dal, known for its light, fluffy texture and easy digestion.</p>
+                </div>
+                <div class="food dosa">
+                    <img class="foodimg" src="dosa.jpg">
+                    <h3>Dosa</h3>
+                    <hr>
+                    <p>Dosa is a thin, crispy South Indian crepe made from fermented rice and urad dal batter, often served with chutney and sambar.</p>
+                </div>
+                <div class="food vada">
+                    <img class="foodimg" src="vada.jpg">
+                    <h3>Vada</h3>
+                    <hr>
+                    <p>Vada is a savory, deep-fried South Indian snack made from urad dal, known for its crispy outside and soft, fluffy inside.</p>
+                </div>
+                <div class="food upma">
+                    <img class="foodimg" src="upma.jpg">
+                    <h3>Upma</h3>
+                    <hr>
+                    <p>Upma is a warm, savory South Indian breakfast dish made from dry-roasted semolina, cooked with spices, vegetables, and ghee.</p>
+                </div>
+                <div class="food pongal">
+                    <img class="foodimg" src="pongal.jpg">
+                    <h3>Pongal</h3>
+                    <hr>
+                    <p>Pongal is a warm, comforting South Indian dish made from rice and moong dal cooked with ghee, black pepper, and cumin.</p>
+                </div>
+                <div class="food biryani">
+                    <img class="foodimg" src="biryani.jpg">
+                    <h3>Hyderabadi Biryani</h3>
+                    <hr>
+                    <p>Hyderabadi Biryani is a fragrant, richly spiced rice dish layered with marinated meat and cooked to perfection with saffron and fried onions.</p>
+                </div>
+                <div class="food pulihora">
+                    <img class="foodimg" src="pulihora.jpg">
+                    <h3>Pulihora</h3>
+                    <hr>
+                    <p>Pulihora is a tangy, spicy South Indian rice dish flavored with tamarind, curry leaves, and crunchy peanuts.</p>
+                </div>
+                <div class="food payasam">
+                    <img class="foodimg" src="semiyapayasam.jpg">
+                    <h3>Semiya Payasam</h3>
+                    <hr>
+                    <p>Semiya Payasam is a creamy South Indian dessert made with roasted vermicelli cooked in milk, sweetened with sugar, and flavored with cardamom and nuts.</p>
+                </div>
+                <div class="food laddu">
+                    <img class="foodimg" src="laddu.jpg">
+                    <h3>Boondhi Laddu</h3>
+                    <hr>
+                    <p>Boondhi Laddu is a popular South Indian sweet made from fried gram flour round balls soaked in sugar syrup and shaped into delicious, round balls.</p>
+                </div>
+            </div>
+            <div id="recipeView" style="display:none;"></div> <!-- Meaning of style="display:none;": It sets the CSS display property of the <div> to none, which means: The element is completely hidden—it doesn’t take up any space on the page. So initially, that div is invisible and not part of the layout at all. 
+Why is it there in your code?
+Your page has two views:
+
+1️⃣ The cards grid (the list of all food cards)
+2️⃣ The recipe detail view (inside #recipeView)
+
+Your JavaScript toggles between them:
+
+Initially:
+
+Cards grid is visible.
+
+#recipeView is hidden (display: none;).
+
+When you click a card:
+
+The JS hides the grid (cardsContainer.style.display = 'none';).
+
+It shows #recipeView (recipeView.style.display = 'flex';) and fills it with the recipe.
+
+✅ So the inline style="display:none;" simply ensures the detail view is hidden on page load.-->
+        </main>
+        <script src="script.js"></script>
+    </body>
+</html>
