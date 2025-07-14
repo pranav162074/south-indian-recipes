@@ -3,7 +3,7 @@ body {
       rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3) /* This is a vertical gradient (default direction) that goes from rgba(0,0,0,0.3) at top to rgba(0,0,0,0.3) at bottom. But both colors are identical → it’s effectively a uniform black overlay with 30% opacity.*/
     ),
-    url('bmgpro2.jpg'); /*is a background shorthand that defines multiple layers for the background: 
+    url('images/bmgpro2.jpg'); /*is a background shorthand that defines multiple layers for the background: 
 ✅ What does it do?
 It stacks two background layers:
 1️⃣ Top layer:
@@ -25,7 +25,7 @@ header {
       rgba(193, 179, 179, 0.168), 
       rgba(245, 239, 239, 0.114)
     ),
-    url('headerbg2.jpg');
+    url('images/headerbg2.jpg');
     border-radius: 20px;
     height: 100px;
     display: flex; /*Makes the element a flex container. Its direct children become flex items.*/

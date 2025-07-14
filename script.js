@@ -6,7 +6,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
     // ⭐ idly, dosa, etc. are the words (keys).
     // ⭐ Their definitions (values) are objects describing ingredients and procedure.
     title: "Idly",
-    image: "idly.jpg",
+    image: "images/idly.jpg",
     ingredients: [
       "2 cups rice",
       "1 cup urad dal",
@@ -22,7 +22,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   dosa: {
     title: "Dosa",
-    image: "dosa.jpg",
+    image: "images/dosa.jpg",
     ingredients: [
       "2 cups rice",
       "½ cup urad dal",
@@ -39,7 +39,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   vada: {
     title: "Vada",
-    image: "vada.jpg",
+    image: "images/vada.jpg",
     ingredients: [
       "1 cup urad dal",
       "Salt",
@@ -55,7 +55,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   upma: {
     title: "Upma",
-    image: "upma.jpg",
+    image: "images/upma.jpg",
     ingredients: [
       "1 cup semolina",
       "2 tbsp ghee or oil",
@@ -72,7 +72,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   pongal: {
     title: "Pongal",
-    image: "pongal.jpg",
+    image: "images/pongal.jpg",
     ingredients: [
       "1 cup rice",
       "½ cup moong dal",
@@ -88,7 +88,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   biryani: {
     title: "Hyderabadi Biryani",
-    image: "biryani.jpg",
+    image: "images/biryani.jpg",
     ingredients: [
       "2 cups basmati rice",
       "500g marinated meat",
@@ -105,7 +105,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   pulihora: {
     title: "Pulihora",
-    image: "pulihora.jpg",
+    image: "images/pulihora.jpg",
     ingredients: [
       "2 cups cooked rice",
       "Tamarind paste",
@@ -121,7 +121,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   payasam: {
     title: "Semiya Payasam",
-    image: "semiyapayasam.jpg",
+    image: "images/semiyapayasam.jpg",
     ingredients: [
       "½ cup vermicelli",
       "2 cups milk",
@@ -138,7 +138,7 @@ const recipes = { // declares a constant variable named recipes and assigns it a
   },
   laddu: {
     title: "Boondhi Laddu",
-    image: "laddu.jpg",
+    image: "images/laddu.jpg",
     ingredients: [
       "1 cup gram flour",
       "Sugar syrup",
