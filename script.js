@@ -184,38 +184,38 @@ document.addEventListener('DOMContentLoaded', () => { // Runs this code only aft
   });
 
   function showRecipe(key) {
-  const recipe = recipes[key];
-  if (!recipe) return;
+    const recipe = recipes[key];
+    if (!recipe) return;
 
-  cardsContainer.style.display = 'none'; // Hide all cards when showing full recipe
-  recipeView.style.display = 'flex'; // Show the full recipe container
+    cardsContainer.style.display = 'none'; // Hide all cards when showing full recipe
+    recipeView.style.display = 'flex'; // Show the full recipe container
 
-  recipeView.innerHTML = `
-    <div class="big-recipe-card">
-      <img src="${recipe.image}" alt="${recipe.title}">
-      <h2>${recipe.title}</h2>
-      <h3>Here's how to prepare ${recipe.title}!</h3>
-      
-      <h4>Ingredients</h4>
-      <ul>
-        ${recipe.ingredients.map(item => `<li>${item}</li>`).join('')}
-      </ul>
-      
-      <h4>Procedure</h4>
-      <ol>
-        ${recipe.procedure.map(step => `<li>${step}</li>`).join('')}
-      </ol>
-      
-      <p class="closing-line">Now Your ${recipe.title} is ready to be devoured!</p>
-      
-      <button id="backButton">Back</button>
-    </div>
-  `;  // Fill the full recipe container with dynamic HTML for the selected recipe.
+    recipeView.innerHTML = `
+      <div class="big-recipe-card">
+        <img src="${recipe.image}" alt="${recipe.title}">
+        <h2>${recipe.title}</h2>
+        <h3>Here's how to prepare ${recipe.title}!</h3>
+        
+        <h4>Ingredients</h4>
+        <ul>
+          ${recipe.ingredients.map(item => `<li>${item}</li>`).join('')}
+        </ul>
+        
+        <h4>Procedure</h4>
+        <ol>
+          ${recipe.procedure.map(step => `<li>${step}</li>`).join('')}
+        </ol>
+        
+        <p class="closing-line">Now Your ${recipe.title} is ready to be devoured!</p>
+        
+        <button id="backButton">Back</button>
+      </div>
+    `;  // Fill the full recipe container with dynamic HTML for the selected recipe.
 
-  document.getElementById('backButton').addEventListener('click', () => {   // When the "Back" button is clicked...
-    recipeView.style.display = 'none'; // Hide the full recipe section
-    cardsContainer.style.display = 'flex'; // Show all the recipe cards again
-  });
+    document.getElementById('backButton').addEventListener('click', () => {   // When the "Back" button is clicked...
+      recipeView.style.display = 'none'; // Hide the full recipe section
+      cardsContainer.style.display = 'flex'; // Show all the recipe cards again
+    });
 }
 
 });

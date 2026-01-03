@@ -1,4 +1,4 @@
-# South Indian Recipes
+# South Indian Food Recipes
 
 This is a simple responsive website showcasing popular South Indian recipes. Built with HTML, CSS, and JavaScript.
 
@@ -8,10 +8,6 @@ This is a simple responsive website showcasing popular South Indian recipes. Bui
 - Click on any card to view full recipe details
 - Ingredients and step-by-step preparation instructions
 - Responsive design for better viewing on mobile and desktop
-
-## 📸 Screenshots
-
-> [Optional] Add images here later to show your site's look.
 
 ## 🗂️ Project Structure
 index.html → Main webpage
